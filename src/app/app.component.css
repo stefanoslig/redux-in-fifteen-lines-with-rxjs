@@ -1,0 +1,57 @@
+:host {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	background-image: url(/assets/abstract.jpg);
+	background-repeat: repeat-y;
+	height: 150px;
+	justify-content: center;
+}
+
+header > img {
+	height: 60px;
+	align-self: center;
+	margin-right: 0.5em
+}
+
+header > .header-title {
+	color: #ceb1b1;
+    font-family: 'Open Sans Condensed';
+    letter-spacing: 0;
+    text-shadow: 2px 2px #000;
+	align-self: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	display: flex;
+	padding: 1em;
+	justify-content: center;
+}
+
+button.reset {
+	background:#4998ce;
+	align-self: flex-end;
+    margin: 10px 10px 0px 10px;
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	padding: 10px 10px;
+	text-align: center;
+	outline: 0;
+	color: #fff;
+	width: 80px;
+}
+
+button.reset:hover {
+	background:#77b1d8;
+}
